@@ -3,7 +3,7 @@ package jsonserialization
 import (
 	"testing"
 
-	"github.com/microsoft/kiota-serialization-json-go/internal"
+	"github.com/chszchen-nordcloud/kiota-serialization-json-go/internal"
 	"github.com/stretchr/testify/assert"
 )
 

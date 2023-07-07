@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/microsoft/kiota-serialization-json-go/internal"
+	"github.com/chszchen-nordcloud/kiota-serialization-json-go/internal"
 
 	assert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
