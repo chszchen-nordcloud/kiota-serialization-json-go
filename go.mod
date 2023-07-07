@@ -1,4 +1,4 @@
-module github.com/microsoft/kiota-serialization-json-go
+module github.com/chszchen-nordcloud/kiota-serialization-json-go
 
 go 1.18
 
