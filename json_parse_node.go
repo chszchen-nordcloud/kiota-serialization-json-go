@@ -442,6 +442,9 @@ func (n *JsonParseNode) GetTimeValue() (*time.Time, error) {
 		return nil, nil
 	}
 	parsed, err := time.Parse(time.RFC3339, *v)
+	if err != nil {
+		parsed, err = time.Parse("2006-01-02T15:04:05", *v)
+	}
 	return &parsed, err
 }
 
